@@ -1,0 +1,13 @@
+package PacMem;
+
+public class Memento {
+    private String state;
+    public Memento(String newState){
+        state=newState;
+    }
+    public String getState(){
+        return state;
+    }
+}
+
+
